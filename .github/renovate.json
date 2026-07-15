@@ -1,15 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>scop/common#c213713709c7b2350581ebc2dd0d3f5997002444",
-    ":dependencyDashboard"
-  ],
-  "packageRules": [
-    // {
-    //  "matchDatasources": ["docker", "github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
-    //  "minimumReleaseAge": "10 days",
-    //  "minimumReleaseAgeBehaviour": "timestamp-optional",
-    //  "internalChecksFilter": "strict"
-    // }
+    "config:best-practices",
+    "github>kachick/renovate-config-dprint#cf0259899190ab21647695903ad908bc1e0a1c45"
   ]
 }
