@@ -2,6 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
-    "github>kachick/renovate-config-dprint#cf0259899190ab21647695903ad908bc1e0a1c45"
+    "github>kachick/renovate-config-dprint#1.0.0"
   ]
 }
