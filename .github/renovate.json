@@ -2,6 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
-    "github>kachick/renovate-config-dprint#cf0259899190ab21647695903ad908bc1e0a1c45"
+
+    "github>kachick/renovate-config-dprint#1.0.0",
+    // pinDigests support would be nice, so an update would change the above to e.g.
+    //   "github>kachick/renovate-config-dprint#1a2f26400f460486aefe8ea1e9405b239917ebe9", // 1.3.0
+
+    "github>kachick/renovate-config-asdf#e3e9d2d2ee50d242141f936b564023dfbbace5c0",
+    // digest-only bumps would be useful too, so an update would change the above to e.g.
+    //   "github>kachick/renovate-config-asdf#e32315606523a360abfd784a0275c3aa0c74e872",
   ]
 }
